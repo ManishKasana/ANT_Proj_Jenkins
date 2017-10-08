@@ -1,0 +1,32 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<!-- <suite name="TestNG Suite" verbose="1" parallel="tests" thread-count="5"> -->
+<suite name="TestNG Suite" verbose="1">
+
+<!-- <parameter name="browser" value="chrome"></parameter> -->
+
+	
+
+	<test name="Google Test">
+	    <!-- <parameter name="browser" value="firefox"></parameter> -->
+		<classes>
+			<class name="org.git.TC_02" />
+		</classes>
+	</test>
+
+	<test name="gmail Test">
+	   <!--  <parameter name="browser" value="chrome"></parameter> -->
+		<classes>
+			<class name="org.git.TC_01" />
+		</classes>
+	</test>
+
+	<!-- <test name="Google, Gmail, Cricinfo Test">
+	<classes>
+		<class name="july_01.TC01" />
+		<class name="july_01.TC02" />
+		<class name="july_01.TC03" />
+	</classes>
+</test> -->
+
+</suite>

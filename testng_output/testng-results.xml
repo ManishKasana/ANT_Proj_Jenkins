@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestNG Suite" duration-ms="37853" started-at="2017-10-08T11:07:50Z" finished-at="2017-10-08T11:08:28Z">
+    <groups>
+    </groups>
+    <test name="Google Test" duration-ms="19631" started-at="2017-10-08T11:07:50Z" finished-at="2017-10-08T11:08:10Z">
+      <class name="org.git.TC_02">
+        <test-method status="PASS" signature="logic()[pri:0, instance:org.git.TC_02@14793a8]" name="logic" duration-ms="19547" started-at="2017-10-08T16:37:50Z" finished-at="2017-10-08T16:38:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logic -->
+      </class> <!-- org.git.TC_02 -->
+    </test> <!-- Google Test -->
+    <test name="gmail Test" duration-ms="18128" started-at="2017-10-08T11:08:10Z" finished-at="2017-10-08T11:08:28Z">
+      <class name="org.git.TC_01">
+        <test-method status="PASS" signature="logic()[pri:0, instance:org.git.TC_01@1ff8b8f]" name="logic" duration-ms="18123" started-at="2017-10-08T16:38:10Z" finished-at="2017-10-08T16:38:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logic -->
+      </class> <!-- org.git.TC_01 -->
+    </test> <!-- gmail Test -->
+  </suite> <!-- TestNG Suite -->
+</testng-results>
